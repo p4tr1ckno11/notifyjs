@@ -369,12 +369,12 @@
 		pMain = position[0];
 		pAlign = position[1];
 		pArrow = position[2];
-		elemPos = this.elem.position();
+		elemPos = this.elem.offset();
 		elemH = this.elem.outerHeight();
 		elemW = this.elem.outerWidth();
 		elemIH = this.elem.innerHeight();
 		elemIW = this.elem.innerWidth();
-		wrapPos = this.wrapper.position();
+		wrapPos = this.wrapper.offset();
 		contH = this.container.height();
 		contW = this.container.width();
 		mainFull = positions[pMain];
